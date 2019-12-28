@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "543832520422",
+    "firebase_url": "https://blockcertify-c67b8.firebaseio.com",
+    "project_id": "blockcertify-c67b8",
+    "storage_bucket": "blockcertify-c67b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543832520422:android:b6c8a3542f1bd1d299ad27",
+        "android_client_info": {
+          "package_name": "com.example.blockcertify_manufacturerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543832520422-nh9fcsc0huhuk5bl4bc7j7s3imnbop0c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.blockcertify_manufacturerapp",
+            "certificate_hash": "3174dc82667537f8509fd7a847af49680a80033d"
+          }
+        },
+        {
+          "client_id": "543832520422-8t09d4pjk1bth0kumnhmlr37vs28h9l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7nKoQDvqkhOQZNn6a91uLKSea4bnQvZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543832520422-8t09d4pjk1bth0kumnhmlr37vs28h9l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.blockcertify_manufacturerapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".NoNet"
+            android:theme="@style/AppTheme2"></activity>
+        <activity
+            android:name=".Profiles.ProfileShopkeeper"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".Logins.LoginShopkeeper"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".Register.RegisterShopkeeper"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".Scans.CameraScan" />
+        <activity
+            android:name=".ViewProduct"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".ViewAllProducts"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".Register.RegisterRetailer"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".Register.RegisterDistributor"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".AddProduct"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".ChangePasswords.ChangePassword"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Profiles.ProfileRetailer"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Profiles.ProfileDistributor"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Profiles.ProfileManufacturer"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Logins.LoginDistributor"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Logins.LoginRetailer"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Logins.LoginManufacturer"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".HomePage"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

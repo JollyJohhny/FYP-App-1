@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddProduct">
+
+
+    <Button
+        android:id="@+id/btnAddProduct"
+        android:layout_width="369dp"
+        android:layout_height="54dp"
+        android:background="@drawable/button_states"
+        android:onClick="Add"
+        android:text="Add Product"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.942" />
+
+    <Button
+        android:id="@+id/btnPrint"
+        android:layout_width="246dp"
+        android:layout_height="39dp"
+        android:background="@drawable/button_states"
+        android:onClick="PrintIt"
+        android:text="Print"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325" />
+
+    <EditText
+        android:id="@+id/txtProductName"
+        android:layout_width="258dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#26006e"
+        android:ems="10"
+        android:hint="Product Name"
+        android:inputType="text"
+        android:textColor="#794fc9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477" />
+
+    <EditText
+        android:id="@+id/txtProductPrice"
+        android:layout_width="258dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#26006e"
+        android:ems="10"
+        android:hint="Product Price in PKR"
+        android:inputType="text"
+        android:textColor="#794fc9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581" />
+
+    <EditText
+        android:id="@+id/txtProductDetails"
+        android:layout_width="258dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#26006e"
+        android:ems="10"
+        android:hint="Product Details"
+        android:inputType="textLongMessage|textMultiLine|textPassword"
+        android:singleLine="true"
+        android:textColor="#794fc9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.693" />
+
+    <EditText
+        android:id="@+id/txtExpiryDate"
+        android:layout_width="258dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#26006e"
+        android:ems="10"
+        android:hint="Select Expiry Date"
+        android:inputType="textLongMessage|textMultiLine|textPassword"
+        android:onClick="setDate"
+        android:singleLine="true"
+        android:textColor="#794fc9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803" />
+
+    <ImageView
+        android:id="@+id/imgQrCode"
+        android:layout_width="199dp"
+        android:layout_height="176dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/txtProductName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
